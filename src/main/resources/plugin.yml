@@ -1,0 +1,4 @@
+name: Millennium-Custom-Recipes
+version: '${version}'
+main: org.millennium.suisurorus.MCR.Millennium_Custom_Recipes
+api-version: '1.20'
