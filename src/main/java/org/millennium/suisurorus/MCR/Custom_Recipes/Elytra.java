@@ -30,14 +30,14 @@ public class Elytra implements Listener {
                 Material.BLACK_BANNER
         };
 
-        for (Material colorBanner : bannerColors) {
-            NamespacedKey key = new NamespacedKey("mcr", colorBanner.name().toLowerCase() + "_to_elytra");
+        for (Material ColorBanner : bannerColors) {
+            NamespacedKey key = new NamespacedKey("mcr", ColorBanner.name().toLowerCase() + "_to_elytra");
             ShapedRecipe ely = new ShapedRecipe(key, new ItemStack(Material.ELYTRA))
                     .shape("ABA", "CDC", "EFE")
                     .setIngredient('A', Material.SLIME_BALL)
                     .setIngredient('B', Material.CHORUS_FLOWER)
                     .setIngredient('C', Material.PHANTOM_MEMBRANE)
-                    .setIngredient('D', colorBanner)
+                    .setIngredient('D', ColorBanner)
                     .setIngredient('E', Material.FEATHER)
                     .setIngredient('F', Material.DRAGON_BREATH);
             getServer().addRecipe(ely);
