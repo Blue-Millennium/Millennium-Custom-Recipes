@@ -1,4 +1,7 @@
 name: Millennium-Custom-Recipes
-version: '${version}'
+version: '1.0.0'
 main: org.millennium.suisurorus.MCR.Millennium_Custom_Recipes
 api-version: '1.20'
+author: Suisuroru
+prefix: MCR
+description: 蔚蓝科技服务器的自定义配方插件
