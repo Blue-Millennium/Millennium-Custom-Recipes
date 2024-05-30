@@ -10,7 +10,7 @@ import static org.bukkit.Bukkit.getServer;
 
 public class Elytra implements Listener {
     public void Ely() {
-        Material[] bannerColors = {
+        Material[] BannerColors = {
                 Material.WHITE_BANNER,
                 Material.ORANGE_BANNER,
                 Material.MAGENTA_BANNER,
@@ -28,7 +28,7 @@ public class Elytra implements Listener {
                 Material.RED_BANNER,
                 Material.BLACK_BANNER
         };
-        for (Material ColorBanner : bannerColors) {
+        for (Material ColorBanner : BannerColors) {
             NamespacedKey key = new NamespacedKey("mcr", ColorBanner.name().toLowerCase() + "_to_elytra");
             ShapedRecipe ely = new ShapedRecipe(key, new ItemStack(Material.ELYTRA))
                     .shape("ABA", "CDC", "EFE")
