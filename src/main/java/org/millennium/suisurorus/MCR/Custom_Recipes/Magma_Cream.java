@@ -11,7 +11,7 @@ import static org.bukkit.Bukkit.getServer;
 public class Magma_Cream implements Listener {
     NamespacedKey key = new NamespacedKey("mcr", "Magma_Cream");
     public void MC(){
-        ShapelessRecipe MC = new ShapelessRecipe(key,ItemStack(Material.MAGMA_CREAM,3))
+        ShapelessRecipe MC = new ShapelessRecipe(key, new ItemStack(Material.MAGMA_CREAM,3))
         .addIngredient(Material.MAGMA_BLOCK);
         getServer().addRecipe(MC);
     }
