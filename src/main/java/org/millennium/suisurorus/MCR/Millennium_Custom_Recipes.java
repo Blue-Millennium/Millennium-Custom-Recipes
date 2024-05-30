@@ -10,7 +10,7 @@ public final class Millennium_Custom_Recipes extends JavaPlugin {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(new Elytra(), this);
         new Elytra().initCustomRecipes();
-        System.out.println("MCR has been loaded.");
+        System.out.println("MCR has been installed.");
         // Plugin startup logic
     }
 
